@@ -220,7 +220,6 @@ The idea is to ask for `%x` without pushing the corresponding arguments to the s
 And if you have a shorter buffer of 12-bytes? Can you still read ___both___ these values? Try it with [`07-short-read.c`](07-short-read.c)
 
 - Recall that `%N$x` accesses the `N+1`th parameter of `printf` and prints it as hex.
-- You can also use `%N$08x` if you want to pad it to 8 characters.
 
 #### 3.3 Write Arbitrary Memory
 
