@@ -126,7 +126,7 @@ The goal of this exercise is to call function `win` and print the “Congratulat
 
 - run the program inside gdb. Can you understand what happened? Why is `EIP=0x41414141` in the end of the execution?
 - see above the usage of `bt` and `info f` in `gdb`.
-- update variable `big_string` accordingly so that you can execute function `win`.
+- update variable `big_string` accordingly so that you can execute function `win`; compile the new file, and run it.
 
 #### 2.2 Running Code from the Stack
 
